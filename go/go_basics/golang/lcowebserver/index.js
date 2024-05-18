@@ -1,7 +1,3 @@
-/*
-Part of exercise file for go lang course at
-https://web.learncodeonline.in
-*/
 
 const express = require('express')
 const app = express()
@@ -11,11 +7,11 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.get('/', (req, res) => {
-  res.status(200).send("Welcome to LearnCodeonline server")
+  res.status(200).send("Welcome to  server")
 })
 
 app.get('/get', (req, res) => {
-    res.status(200).json({message: "Hello from learnCodeonline.in"})
+    res.status(200).json({message: "Hello from golang.in"})
   })
 
 

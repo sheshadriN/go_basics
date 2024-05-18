@@ -9,7 +9,7 @@ import (
 const url = "https://lco.dev"
 
 func main() {
-	fmt.Println("LCO web request")
+	fmt.Println("shesha web request")
 
 	response, err := http.Get(url)
 
